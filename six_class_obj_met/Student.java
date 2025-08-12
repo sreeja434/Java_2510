@@ -74,4 +74,9 @@ public class Student {
         }
     }
 
+    public void calculateCourseFee() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calculateCourseFee'");
+    }
+
 }
