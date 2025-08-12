@@ -1,7 +1,7 @@
 // vars - data types - operators - conditionals - loops 
 // classes - methods(variations) - objects - constructors
 
-package seven_constructors;
+
 
 public class LMSGradePaymentTracker {
     public static void main(String[] args) {
