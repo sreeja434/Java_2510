@@ -1,0 +1,738 @@
+15th July
+=========
+
+    -> Java Backend
+
+        -> Core Java ( Language Fundamentals ) - 60% 
+
+        -> Advance Java ( MT, EH, Collections Framework, SQL, RDBMS ) - 20%
+
+        -> Spring Framework / Spring Boot (API's - Micro Services) - 20%
+
+    -> Java 
+
+        -> Programming Language
+
+    -> Language ?
+
+            -> Communication (Verbal, Written, Gestures etc)
+
+            -> Languages Constructed ?
+
+                -> Regions (South India - North India etc)
+
+            -> Human to Human (English, Hindi, Telugu etc)
+
+    -> Programming ?
+
+        -> Set Of Rules / Instructions
+
+            -> TASK 
+
+    -> Programming Language
+
+        -> Set Of Instructions To Perform TASK
+
+    -> Javascript, Java, Python, C etc
+
+    -> Based On Domains 
+
+    -> Java vs Python 
+
+        -> Java is performance oriented (FASTEST) --> COMPILED 
+
+        -> Python is performance oriented (FAST) --> INTERPRETED
+
+        -> Build An Application (Java -> 6 Months)  (Run Faster)
+        -> Build An Python      (Python -> 6 Weeks) (Develop Faster)
+    
+    -> How Many ways you can Perform a TASK(Programming) ?
+
+        -> Programming paradigms are fundamental styles or approaches used 
+            in computer programming to solve problems.
+
+        -> Imperative Programming Language
+
+            -> How To Do 
+
+            -> Java is Imperative Programming Language
+
+        -> Declarative Programming Language
+
+            -> What To Do 
+
+            -> SQL is Declarative Programming Language
+
+        -> High Level
+
+        -> Low Level
+
+            01101010 01100001 01110110 01100001 00100000 01101001 
+            01110011 00100000 01100010 01100101 01110011 01110100
+
+        -> Myntra Application
+
+            brandName = The Indian Garage Co
+            ratings = 4.2
+            price = 750
+            size = 36
+
+            System.out.println(" The Brand is "+brandName+ " has ratings"+ratings)
+
+            -> On the Object Level
+
+            -> Object -> Screen, Table,  
+
+16th July
+=========
+
+    -> Install Java (21 LTS)
+
+    -> Install VS Code (IDE - Integrated Development Environment)
+
+    -> GitHub (Platform To Store Code and Collaborate)
+
+    -> Git (Client To Enable Tracking)
+
+    -> Version Control / Source Control / Revision Control
+
+        -> Keep Track Of Changes(Programs, Website files, any file)
+
+    -> Install Git On Your Laptop  
+
+    -> Setup GitHub Account
+
+17th July
+=========
+
+    -> Java Compiler (javac)
+
+    -> Java Interprter (java)
+
+    -> JVM - JRE - JDK
+
+        -> JVM - Java Virtual Machine
+
+            -> Converts Byte Code To Machine Code
+
+            -> Java Platform Independent (JVM)
+
+        
+        -> JRE - Java Runtime Environment
+
+            -> In Servers we use JRE 
+
+            -> JRE is used to RUN JAVA PROGRAMS / APPS
+
+            -> JRE is NOT used to DEVELOP JAVA PROGRAMS / APPS
+
+        -> JDK - Java Development Kit
+
+            -> In Developer Laptops we use JDK
+
+            -> JDK Contains various utilities to Develop & Run Java Programs
+
+    -> W.R.T Hello World Program (App.java)
+
+        -> JDK : You Write Java Code Using JDK Tools (java)
+
+        -> JRE : You Compile Java Code Using JRE (javac)
+
+        -> JVM : Reads .class file i.e Byte Code and Gives it to OS for execution
+
+18th July
+=========
+
+    -> Variables
+
+        -> Store the values ?
+
+            -> To retrieve data 
+            -> To perform some operations on data
+            -> To Store data
+
+        -> brand
+        -> description
+        -> ratings
+        -> price 
+
+        -> Data you want to store, you need to specify data type
+            -> above approach is called as Static Typed/Strict Typed
+
+        -> Data Type is classification of data
+
+            -> Primitive Data types 
+
+                -> Fundamental data types, which are prebuilt to store numbers, decimals,
+                    characters, symobols, true and false
+
+                        -> byte
+                        -> short
+                        -> int
+                        -> long
+                        -> float
+                        -> double
+                        -> char
+                        -> boolean
+
+
+            -> Non-Primitive Data types
+
+                -> Either we can use already defined by java, Strings, Arrays, Collections, Interfaces etc
+
+                -> As a user you can create your own data types as well
+                    Student, Employee, Company etc  
+    
+    -> NOTE : The local variable someDataNew2 may not have been initialized
+
+    -> We have Instance Variables, Local Variables & Satic Variables 
+
+        -> For any kind of Variables we work with, we need to specify Datatype
+
+    -> Based on the data type we select, default values are applicable
+
+21st July
+=========
+
+    -> Type Conversion & Type Casting
+
+        -> Convert One Datatype to Another Datatype
+
+    -> Type Conversion 
+
+        -> Automatic / Implicit - is done by java Compiler, when Conversion is considered SAFE
+
+        -> NO LOSS OF DATA (SAFE)
+
+        -> WIDENING / Implicit Conversion / Type Conversion
+
+    -> Type Casting 
+
+        -> Manual / Explicit - is done by developer, when Conversion is considered UNSAFE
+
+        -> LOSS OF DATA (UNSAFE)
+
+        -> NARROWING / Explicit Conversion / Type Casting
+
+        -> To Perform Casting we need to keep target datatype in parentheses (int) before value
+
+    -> Incompatible Conversions
+
+        -> Text To Number or Number To Text (Possible)
+
+        -> https://docs.oracle.com/javase/specs/jls/se8/html/jls-5.html#jls-5.5
+
+
+22nd July
+=========
+
+    -> Variables 
+        -> Store the Data
+        -> Retrieve the Data
+        -> Manipulate the Data(Operators)
+
+    -> Operators    
+
+        -> Special Symbols, perform operations on Variables & Value
+
+            -> Values - Operands
+            -> Symbols - Operators
+        
+    -> Types Of Operators
+
+        -> Arithmetic Operators
+
+            -> For Mathematical Calculation
+                + - * / % 
+
+        -> Increment / Decrement Operators
+
+            -> To Increase or Decrease the value by 1
+            -> Mostly used in Loops(repeated actions)
+            -> Increment ++ (pre/post)   
+            -> Decrement -- (pre/post)   
+
+        -> Compound Assignment Operators
+
+            -> Assignment Operator is =
+
+            -> Compound Assignment Operators 
+            Used to perform Arithmetic operations in concise(short) form
+
+            -> Compound Assignment Operators
+                +=, -=, *=, /=, %=
+
+            -> x = x + 5(long form) or x += 5 (short form)
+
+        -> Relational Operators (Comparison)
+
+            -> Used to compare values and return true/false(boolean)
+
+            -> Mostly used in conditional checks
+
+            -> ==, !=, >, <, >=, <=
+
+        -> Logical Operators
+
+            -> Used to combine multiple conditionals
+
+            -> Used to compare values and return true/false(boolean)  
+
+            -> Mostly used in conditional checks
+
+            -> && (AND) - returns true, if both(multiple) conditions are true
+            -> || (OR)  - returns true, if one of the conditions is true
+            -> ! (NOT)  - inverts, true is false and false is true
+
+            X       Y       X && Y      X || Y      !X      !Y
+            T       T         T            T         F       F
+            T       F         F            T         F       T    
+            F       T         F            T         T       F
+            F       F         F            F         T       T
+
+
+        -> Bitwise Operators
+
+            -> Used To Perform operations On Binary Bits (01)
+
+            -> Mostly used in low level programming 
+
+                -> Embedded Systems, Network Programming, OS Level etc
+
+            -> & (AND) - Sets each bit to 1, if both the bits are 1   
+            -> | (OR) - Sets each bit to 1, if one of the bits is 1
+            -> ^ (XOR) - Sets each bit to 1, if only one of the bits is 1
+                       - if both values are different then output is 1
+                       - if both values are same then output is 0
+            -> ~ (NOT) (tilde) - Inverts the bits (0 becomes 1 and 1 becomes 0)
+            -> << (Left Shift) 
+                -> Moves the bits left specified by number of positions, let the leftmost
+                bits falls off (pushing zeros in from right)
+            -> >> (Right Shift)
+                -> Moves the bits right specified by number of positions, let the rightmost
+                bits falls off (pushing zeros in from left)
+
+
+23rd July
+=========
+
+    -> Operators LAB With LMS Scenario
+
+    -> Control Structures / Statements
+
+        -> In Java Control Structures are used to 
+        control the flow of execution in a program
+
+        -> We have three categories for Control Structures
+
+            -> Decision Making Statements (Conditional Statements)
+
+                -> if 
+                -> if-else
+                -> else if ladder
+                -> switch 
+
+            -> Looping Statements (Iteration Statements)
+
+                -> while
+                -> do while
+                -> for
+
+            -> Branching Statements (Jump Statements)
+
+                -> break
+                -> continue
+                -> return
+
+
+24th July
+=========
+
+    -> Conditional Statements
+
+        -> Evaluate a condition(-> boolean), execute different blocks of Code
+        based on whether the condition is true or false
+
+        -> if 
+            -> Execute a block of code if condition is true
+        -> if-else
+            -> Execute one block of code if condition is true,
+                another block of code if condition is false
+            -> Ternary Operator - same as if else, but concise form 
+                variable = condition ? value_if_true:value_if_false;
+        -> else if ladder
+            -> Allows multiple conditions to be checked
+        -> switch 
+            -> Allows multiple conditions to be checked
+            -> We can use fall through behavior where we can assign multiple values
+            -> we also have new switch-case from java 8 onwards, where we can use
+            arrow operator ->
+        
+        NOTE: We can also use nested conditions, condition inside another condition
+
+
+25th July
+=========
+
+    -> Looping Statements / Iteration Statements
+
+        -> Loops will help you a block of code to executed repeatedly, based on a condition
+
+        -> Types Of Loops
+
+            -> for loop - when you already know in advance, how many times you need to 
+                execute the block of code
+            
+            -> while loop - runs block of code, as long as the condition is true
+            
+            -> do-while loop - similar to while, but run the code at least once, 
+                even before checking the condition
+
+            -> Branching Statements 
+
+                -> break - exits the loop, when used with for, while, 
+                    do-while or switch 
+
+                -> continue - skip the current Iteration 
+
+                -> return - returns a value
+
+    -> Scanner Class -> Predefined class designed to take user input
+
+        -> nextInt(): Reads an integer value.
+        -> nextDouble(): Reads a double value.
+        -> nextLine(): Reads an entire line of text.
+        -> next(): Read the next token (word).
+
+28th July
+=========
+
+    -> LMS With Variables - Data Types - Operators - Type Casting 
+        - Conditionals - Loops
+
+
+29th July
+=========    
+
+    -> Object Oriented Programming (OOP)
+
+        -> OOPS is a way of Structuring code, so that we can group 
+            data(Variables) and behavior(Methods) using Objects
+
+        -> OOP Concepts
+
+            -> Classes
+            -> Objects
+
+            -> Inheritance
+            -> Encapsulation
+            -> Polymorphism
+            -> Abstraction
+
+    -> Considering Laptop as an Object
+
+        -> data(Variables) and behavior(Methods)
+
+            -> Data - Variables
+
+                -> LaptopBrand = MAC -> String laptopBrand = "MAC";
+                -> LaptopWeight = 1.5 -> double  laptopWeight = 1.5;
+                -> LaptopModel = MACBOOK AIR -> String laptopModel = "MACBOOK AIR";
+
+            -> Behavior - Methods (Task)
+
+                -> Laptop can browse -> public void browseWeb() {} 
+                -> Laptop can play videos -> public void playVideos() {} 
+                -> Laptop can do some task -> public void doTask() {} 
+
+        -> Laptop, Person, Anything can be an Object
+
+        -> To Create an Object ? 
+            We need Class ?
+
+        -> Class ?
+
+            -> Blueprint of Object
+
+        -> Object 
+
+            -> Real instance of an class
+
+        -> Methods
+
+            -> Method is a block of code that performs a TASK / ACTION         
+
+        -> Data (Variables) we can represent them in 
+
+            -> Class Level -> Instance Variables
+            -> Inside Methods -> Local Variables
+            -> Using Static keyword -> Static Variables
+
+
+30th July
+=========
+
+    -> Instance Variables
+
+        -> Declared inside a class, but outside the method and not Static
+        -> Belong to each object
+        -> Memory is allocated when an object is created
+        -> can have default values, if not initialized
+
+    -> Local Variables
+
+        -> Declared inside a method, Constructors or Blocks
+        -> Only accessible within method, Constructors or Blocks, in which 
+            its's Declared
+        -> Must be initialized before use 
+
+    -> Static Variables
+
+        -> Belong to class, not individual Objects
+        -> Only one copy exists, meaning shared across all Objects
+        -> Accessed using class name 
+        -> Initialized Only once, at the time of class loading  
+
+    -> Methods
+
+        -> Method is a block of code that performs a TASK / ACTION
+
+        -> Method Declaration
+
+            -> Method Header         
+            -> Method Body
+
+            // simple
+            -> accessModifier returnType/void methodName (parametersList) {
+                // method body
+                return value;
+            }
+
+            // complex
+            -> accessModifier static/non-static returnType/void methodName (parametersList) throws ExceptionsList{
+                // method body
+                return value;
+            }
+
+31th July
+=========
+
+    -> LMS With Classes, Objects & Methods.
+
+
+1st Aug
+=======
+
+-> Constructors
+
+-> Method - Block of code that performs some TASK
+
+-> Constructor - Block of code that performs OBJECT initialization
+
+    -> Constructor is a special method, that initializes newly
+        created objects
+
+    -> Method is called, after creating object
+        -> Explicitly call method
+
+    -> Constructor is called, at the time of object creation
+        -> Implicitly called, while object is being created
+
+    -> Constructors will not have any return type, not even void
+
+    -> method name can be your choice, but Constructor name should
+        be class name only    
+
+    -> Default Constructor
+
+        public ConstructorDemo(){    
+        
+        }
+
+    -> Parameterized Constructor
+        
+        public ConstructorDemo(datatype parametersNames, ...){    
+        
+        }
+    
+    -> this - keyword refers to current instance of class
+
+4th Aug
+=======
+
+-> Constructor Overloading
+
+    -> Having Multiple Constructors(for different types of
+    initializations), with different parameters
+        -> Number of parameters
+        -> Type of parameters
+        -> Order of parameters
+    
+    -> Constructor() {
+
+       }
+    
+    -> Constructor(int a, int b) {
+
+       }
+
+    -> Constructor(int a, int b, int c) {
+
+       }
+    
+    -> Constructor(double a, double b) {
+
+       }
+    
+    -> Constructor(int a, double b) {
+
+       }
+
+    -> Constructor(double a, int b) {
+
+       }
+    
+-> this() - Constructor call
+
+    -> Used to call a Constructor inside another Constructor
+
+-> NOTE : this is keyword, used to refer current instance
+
+5th Aug
+=======
+
+-> Variable - If you want to store data we need a variable
+
+-> Datatype - Specifies what type of value a variable can hold
+
+    -> int num = 10;
+
+-> In general, a variable can hold only One Value at a time.
+
+    -> int studentScore = 90; Valid
+    -> int studentScores = 90,80,75; Invalid 
+
+    -> If you want to Store Multiple Values for 
+    a single variable then we need ARRAYS
+
+-> Arrays - A data Structure thats holds Multiple Values for 
+    a single variable with SAME DATA TYPES, and FIXED SIZE
+
+    -> Types Of Arrays
+
+        -> Single Dimensional Array
+        -> Multi Dimensional Array
+
+    -> In a graph, how we have x and y axis, in arrays we can apply
+    the same concept, to represent data
+
+-> Single Dimensional Array
+
+    -> If we have only a single dimension (only X axis), then its
+    a Single Dimensional Array
+
+    -> Each element is Accessed using an Index(Position) 
+        (starting from Zero (0) ) 
+
+    -> Create array using 
+
+        datatype[] arrayName = new datatype[size];
+
+        int[] arrayName = {1,2,3,4,5};
+
+
+-> Multi Dimensional Array 
+
+    -> If we have multiple dimension (like X axis & Y axis), then its
+    a Multi Dimensional Array
+
+    // 2D Array
+    -> datatype[][] arrayName = new datatype[size][size];
+
+    // 3D Array
+    -> datatype[][][] arrayName = new datatype[size][size][size];
+
+7th Aug
+=======
+
+    -> LMS with Arrays
+
+    -> Strings In Java
+
+-> String - A sequence of characters
+
+-> String msg = "Java";
+
+-> String is non-primitive data type
+
+-> String class and every string we create, is an
+    object of string class
+
+-> Strings are called Literals, as they possess
+ unique behavior.
+
+    -> When we create an object of string class,
+     directly we can assign the value and prints the
+     value directly
+
+    -> When it comes to other classes, unlike Strings
+    when we print the object, it give object address
+
+-> String Pool 
+
+    -> data = "hello" -> size
+    -> bk_data = "hello" -> size
+
+
+8th Aug
+=======
+
+    -> String Immutability
+
+        -> Once a string is created, it cannot be modified
+
+    -> NOTE - When you modify a string, like using concat(), 
+        every time a new object is created, this leads to
+        performance issues
+
+    -> To overcome this, java has provided two classes to get Mutable Strings
+
+        -> StringBuffer (Thread Safe)
+        -> StringBuilder (Non-Thread Safe)
+
+    -> LMS App With Strings    
+
+11th Aug
+=======
+
+-> Static vs Non-Static 
+
+    -> First We need to be clear with Classes & Object
+
+        -> Class - Blue Print Of an Object
+
+            -> Variables, Data types, Constructors, Objects
+
+                -> We can also add Blocks (Static & Non-Static) 
+    
+    -> In Java To Allocate Memory
+
+        -> Using new keyword create an object and memory will be allocated
+
+        -> Using static keyword also memory is allocated
+
+12th Aug
+========
+
+    -> Instances Variables - Done
+    -> Static Variables - Done
+    -> Static Methods - Acts On Static Data
+    -> Instance Methods - Acts On Instance Data
+
+    -> static blocks - To initialize static variables
+
+    -> instance blocks - To initialize non-static variables
+
+    -> Constructors internally call non-static or instance blocks
+
+    -> Main method is the starting point of execution, unless a static block is used
